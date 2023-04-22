@@ -166,7 +166,7 @@ body {
 /* Completed */
 
 #completed-tasks .task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
