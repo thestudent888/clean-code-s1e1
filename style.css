@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { text-align: center;
   }
@@ -46,12 +46,12 @@ body {
 
 #incomplete-tasks,
 #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .tasks-items, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .task-input,
@@ -59,7 +59,7 @@ body {
 .delete,
 .edit,
 .checkbox {
-  outline:none;
+  outline: none;
 }
 
 .add,
@@ -174,16 +174,16 @@ body {
 
 #incomplete-tasks .task-input,
 #completed-tasks .task-input {
-  display:none
+  display: none
 }
 
 #incomplete-tasks .edit-mode .task-input,
 #completed-tasks .edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 #incomplete-tasks .edit-mode .edit-task-label,
 #completed-tasks .edit-mode .edit-task-label {
-  display:none;
+  display: none;
 }
